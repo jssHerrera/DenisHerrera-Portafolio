@@ -57,7 +57,12 @@
 }
 .about__text{
   font-size: clamp(1.6rem, 4vw, 1.67rem);
-  text-align: center;
+  text-align: justify;
   color: var(--lightGray-color);
   /* margin: 0 0 2.5rem 0; */
+}
+@media (min-width: 600px) {
+  .about__text{
+    text-align: center;
+  }
 }
