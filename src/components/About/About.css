@@ -1,18 +1,7 @@
 .about {
-  /* height: 100vh; */
   margin-top: 5rem;
   text-align: center;
 }
-/* @media (min-width: 1024px) {
-  .about {
-    margin-top: 9rem;
-  }
-} */
-/* .about__main{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10%;
-} */
 .about__content {
   min-width: 200px;
   width: 100%;
@@ -32,28 +21,6 @@
     width: fit-content;
   }
 }
-/* avatar */
-/* .about__me {
-  width: 100%;
-  display: grid;
-  place-items: center;
-  grid-row:2 / 2
-}
-@media (min-width: 820px) {
-  .about__me {
-    grid-row:1 / 1
-  }
-}
-
-.about__me-img {
-  max-width:230px ;
-  transform: rotate(10deg);
-  transition: var(--transition);
-}
-.about__me-img:hover {
-  transform: rotate(0);
-} */
-
 /*Presentacion*/
 .about__cards {
   display: grid;
@@ -89,8 +56,8 @@
   margin: 0;
 }
 .about__text{
-  font-size: clamp(1.5rem, 4vw, 1.92rem);
-  text-align: justify;
+  font-size: clamp(1.6rem, 4vw, 1.67rem);
+  text-align: center;
   color: var(--lightGray-color);
   /* margin: 0 0 2.5rem 0; */
 }

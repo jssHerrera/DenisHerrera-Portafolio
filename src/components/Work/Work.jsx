@@ -29,13 +29,11 @@ const Work = () => {
     <section className="proyectos container app__flex">
       <Title first="Mis" second="Proyectos" />
       <FilterWork handleClick={handleClick} active={active} />
-      <article className="proyecto__box ">
         <div className="proyecto__container">
           {cards.map((project) => (
             <CardWork key={project.id} project={project} />
           ))}
         </div>
-      </article>
     </section>
   );
 };

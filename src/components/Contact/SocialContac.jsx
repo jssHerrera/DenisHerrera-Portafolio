@@ -7,7 +7,7 @@ const SocialContac = () => {
       <article className="contact__option-target">
         <a
           href="mailto:jsherr.6@gmail.com"
-          title='gmail'
+          title="gmail"
           target="_blank"
           rel="noopener noreferrer"
           className="contact__option-icon"
@@ -19,21 +19,21 @@ const SocialContac = () => {
       {/* -------------------- */}
       <article className="contact__option-target">
         <a
-          href="https://m.me/JsHerr.6"
-          title='messenger'
+          href="https://pe.linkedin.com/in/denis-herrera-espiritu"
+          title="linkedin"
           target="_blank"
           rel="noopener noreferrer"
           className="contact__option-icon"
         >
-          <i className="bx bxl-messenger"></i>
-          <span> Messenger</span>
+          <i className="bx bxl-linkedin-square"></i>
+          <span>Linkedin</span>
         </a>
       </article>
       {/* -------------------- */}
       <article className="contact__option-target">
         <a
           href="https://api.whatsapp.com/send?phone=925860616"
-          title='whatsapp'
+          title="whatsapp"
           target="_blank"
           rel="noopener noreferrer"
           className="contact__option-icon"

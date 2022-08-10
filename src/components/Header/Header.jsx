@@ -1,6 +1,7 @@
 import { Avatar } from "./Avatar";
 import DowloadedCv from "./DowloadCv";
 import "./Header.css";
+import Slice from "./Slice";
 import SocialMenu from "./SocialMenu";
 import TitleMenu from "./TitleMenu";
 
@@ -12,6 +13,7 @@ const Header = () => {
         <DowloadedCv/>
         <SocialMenu />
         <Avatar/>
+        <Slice/>
       </div>
     </header>
   );
