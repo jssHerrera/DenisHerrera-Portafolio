@@ -1,4 +1,3 @@
-import React from "react";
 
 const SocialContac = () => {
   return (
@@ -12,7 +11,7 @@ const SocialContac = () => {
           rel="noopener noreferrer"
           className="contact__option-icon"
         >
-          <i className="bx bx-envelope"></i>
+          <i className="bx bx-envelope icon"></i>
           <span>jsherr.6@gmail.com</span>
         </a>
       </article>
@@ -25,7 +24,7 @@ const SocialContac = () => {
           rel="noopener noreferrer"
           className="contact__option-icon"
         >
-          <i className="bx bxl-linkedin-square"></i>
+          <i className="bx bxl-linkedin-square icon"></i>
           <span>Linkedin</span>
         </a>
       </article>
@@ -38,7 +37,7 @@ const SocialContac = () => {
           rel="noopener noreferrer"
           className="contact__option-icon"
         >
-          <i className="bx bxl-whatsapp"></i>
+          <i className="bx bxl-whatsapp icon"></i>
           <span>+51925860616</span>
         </a>
       </article>

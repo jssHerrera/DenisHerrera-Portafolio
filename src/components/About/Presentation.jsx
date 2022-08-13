@@ -3,7 +3,7 @@ const Presentation = () => {
     <div className="about__content">
       <p className="about__text">
         Hola, mi nombre es Denis Herrera, soy un desarrollador web apasionado
-        del frontend. Busco una oportunidad laboral seria y de largo recorrido
+        del front-End. Busco una oportunidad laboral seria y de largo recorrido
         para poder crecer juntos, con un equipo que me permita seguir
         aprendiendo hasta poder ser yo el que ayude a otros.
       </p>

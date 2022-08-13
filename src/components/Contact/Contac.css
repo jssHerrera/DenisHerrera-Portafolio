@@ -43,15 +43,28 @@
 .contact__form-item:focus {
   border: 2px solid var(--input-color);
 }
-
+.contact__form-item.error{
+  border: 2px solid var(--primary-color);
+}
+.contact__form-span{
+  color: var(--primary-color);
+}
 .contact_from-btn {
+  outline: none;
   border-radius: 0.5rem;
   border: 2px solid var(--input-color);
   padding: 1.5rem;
   color: var(--text-color);
   background-color: var(--input-color);
   font-weight: 700;
-  transition: transform 0.1s;
+  font-size: 1.7rem;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.contact_from-btn:hover {
+  border:2px solid var(--white-color) ;
+  background-color: transparent ;
+  color: var(--white-color);
 }
 @media (min-width: 600px) {
   .contact_from-btn {
@@ -81,6 +94,9 @@
   box-shadow: 2px 2px 10px #0004;
   background-color: var(--white-color);
   border-radius: 0.5rem;
+}
+.icon{
+  font-size: 2.2rem;
 }
 .contact__option-icon:hover {
   color: var(--white-color);
