@@ -1,12 +1,12 @@
 const FilterWork = ({ handleClick, active }) => {
   return (
-    <div className="app__work">
-      {["All", "Web design", "Web App", "React JS", "Angular JS"].map(
+    <div className='app__work'>
+      {['All', 'Web design', 'Web App', 'React JS', 'Angular JS'].map(
         (item, index) => (
           <div
             key={index}
             className={`app__work-item app__flex ${
-              active === item ? "active" : ""
+              active === item ? 'active' : ''
             } `}
             onClick={() => handleClick(item)}
           >
@@ -15,7 +15,7 @@ const FilterWork = ({ handleClick, active }) => {
         )
       )}
     </div>
-  );
-};
+  )
+}
 
-export default FilterWork;
+export default FilterWork

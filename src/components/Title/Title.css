@@ -3,8 +3,9 @@
   font-size: clamp(2rem, 7vw, 3rem);
   /* font-size: 3rem; */
   white-space: nowrap;
+  margin: 0;
 }
-.title__span{
+.title__span {
   font-weight: 700;
   color: transparent;
   line-height: 1.1;

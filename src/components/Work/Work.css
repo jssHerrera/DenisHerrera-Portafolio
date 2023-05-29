@@ -5,6 +5,9 @@
   flex-direction: column;
   width: 100%;
 }
+.proyecto__texto {
+  margin: 0;
+}
 .app__work {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +42,7 @@
 
 /* card */
 .proyecto__container {
+  margin-top: 5rem;
   display: grid;
   grid-template-rows: 1fr;
   gap: 2rem;
@@ -68,7 +72,7 @@
   position: relative;
 }
 .project__content-link,
-.project__content{
+.project__content {
   padding-top: 1.5rem;
 }
 .project__content-tecnologi {
@@ -115,16 +119,14 @@
   text-align: justify;
   font-size: clamp(1.4rem, 5vw, 1.45rem);
 }
-.project__content-link {
-}
 
 /* project link */
-.project__content-link{
+.project__content-link {
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
-.project__content-link a{
+.project__content-link a {
   width: 50px;
   height: 50px;
   font-size: 30px;
@@ -134,6 +136,6 @@
   display: grid;
   place-content: center;
 }
-.project__content-link a:hover{
-  transform: scale(.8);
+.project__content-link a:hover {
+  transform: scale(0.8);
 }

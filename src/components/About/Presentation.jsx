@@ -1,23 +1,20 @@
 const Presentation = () => {
   return (
-    <div className="about__content">
-      <p className="about__text">
-        Hola, mi nombre es Denis Herrera, soy un desarrollador web apasionado
-        del front-End. Busco una oportunidad laboral seria y de largo recorrido
-        para poder crecer juntos, con un equipo que me permita seguir
-        aprendiendo hasta poder ser yo el que ayude a otros.
+    <div className='about__content'>
+      <p className='about__text'>
+        Hola, mi nombre es Denis Herrera Espiritu y soy desarrollador Front-End junior apasionado por la creación de experiencias web. Actualmente, estoy enfocado en aprender Java Spring Boot, para poder crecer y desarrollar mis habilidades en esta tecnología.
       </p>
       <a
-        href="/documents/cv.pdf"
+        href='/documents/cv.pdf'
         download
-        className="btn btn-primary"
-        title="Dowload CV"
-        rel="noopener noreferrer"
+        className='btn btn-primary'
+        title='Dowload CV'
+        rel='noopener noreferrer'
       >
         Dowload CV
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Presentation;
+export default Presentation
