@@ -39,8 +39,8 @@ const data = [
     images: 'img/work/notas.png',
     desc: 'Esta aplicacion fue creada con React, Redux y Tailwind. Te permite llevar una serie de apuntes con la fecha creada, se puede editar  y eliminar.',
     links: {
-      code2: 'https://blocknotas.netlify.app/',
-      web: 'https://github.com/jssHerrera/Block-notas'
+      github: 'https://github.com/jssHerrera/Block-notas',
+      web: 'https://blocknotas.netlify.app/'
     }
   },
   {
@@ -50,7 +50,7 @@ const data = [
     images: 'img/work/timeTrakin.png',
     desc: 'Time tracking dashboard  reto de Frontend Mentor, creada con React y tailwind. Este proyecto es adaptable de manera óptima a dispositivos móviles, tablets y escritorios.',
     links: {
-      code2: 'https://github.com/jssHerrera/TimeTracking',
+      github: 'https://github.com/jssHerrera/TimeTracking',
       web: 'https://timetrackidash.netlify.app/'
     }
   }
