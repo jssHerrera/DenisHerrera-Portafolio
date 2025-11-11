@@ -1,0 +1,7 @@
+// {
+//   "extends": ["standard", "plugin:react/recommended"],
+//   "rules": {
+//     "quotes": ["error", "single"],          // usa comillas simples en JS
+//     "jsx-quotes": ["error", "prefer-single"] // usa comillas simples en JSX
+//   }
+// }

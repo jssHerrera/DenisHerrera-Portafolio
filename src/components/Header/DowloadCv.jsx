@@ -1,21 +1,21 @@
 const DowloadedCv = () => {
   return (
-    <div className="header__cv">
+    <div className='header__cv'>
       <a
-        href="/documents/cv.pdf"
-        title="dowload CV"
+        href='/documents/cv-Denis Herrera Espiritu.pdf'
+        title='dowload CV'
         download
-        className="btn"
-        target="_blank"
-        rel="noopener noreferrer"
+        className='btn'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         Dowload CV
       </a>
       <a
-        href="#contact"
-        title="contactame"
-        className="btn btn-primary"
-        rel="noopener noreferrer"
+        href='#contact'
+        title='contactame'
+        className='btn btn-primary'
+        rel='noopener noreferrer'
       >
         Contactame
       </a>
