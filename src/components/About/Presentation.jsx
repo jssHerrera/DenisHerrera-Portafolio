@@ -2,7 +2,7 @@ const Presentation = () => {
   return (
     <div className='about__content'>
       <p className='about__text'>
-        Hola, mi nombre es Denis Herrera Espiritu y soy desarrollador Front-End junior apasionado por la creación de experiencias web. Actualmente, estoy enfocado en aprender Java Spring Boot, para poder crecer y desarrollar mis habilidades en esta tecnología.
+        Hola, mi nombre es Denis Herrera Espiritu y soy desarrollador Front-End junior apasionado por la creación de experiencias web modernas y funcionales. Me encanta aprender nuevas tecnologías y seguir mejorando mis habilidades en desarrollo Front-End
       </p>
       <a
         href='/documents/cv.pdf'
